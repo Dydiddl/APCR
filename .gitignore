@@ -198,3 +198,46 @@ cython_debug/
 
 # mac 에서 자동으로 만들어지는 파일
 .DS_Store
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+myvenv/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Database
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# Logs
+*.log
+logs/
+migration.log
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+data/
+__pycache__/
+*.pyc
